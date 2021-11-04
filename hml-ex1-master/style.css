@@ -1,17 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+
 * {
     padding: 0;
+    margin: 0;
+}
+
+*::-webkit-scrollbar{
+    display: none;
 }
 
 .title {
+    margin-top: 25px;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 
-#texto-1 {
-    width: 50%;
-    float: right;
-}
+#linha-titulo {
+    background-color: black;
 
-#texto-2 {
+    border: 1px solid black;
+    border-radius: 7px 7px 7px 7px;
+    height: 2px;
+
     width: 50%;
-    float: left;
+    height: 2px;
+    
+    position: relative;
+    margin-top: 10px;
+    margin-left:25% !important; 
+    margin-right:25% !important;
 }
